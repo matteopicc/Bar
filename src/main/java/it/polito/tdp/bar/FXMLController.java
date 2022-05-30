@@ -22,7 +22,7 @@ public class FXMLController {
 
 	@FXML
 	void handleSimula(ActionEvent event) {
-
+      model.simula();
 	}
 
 	@FXML // This method is called by the FXMLLoader when initialization is complete
